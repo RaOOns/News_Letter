@@ -1,0 +1,286 @@
+2025-12-20 20:32:50 | INFO | DH News Bot started.
+2025-12-20 20:32:50 | INFO | Now (KST): 2025-12-20 20:32
+2025-12-20 20:32:50 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:32:50 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:32:50 | INFO | Recipients count: 0
+2025-12-20 20:32:50 | INFO | Step1 OK: skeleton + time policy ready.
+2025-12-20 20:34:44 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 20:34:44 | INFO | Now (KST): 2025-12-20 20:34
+2025-12-20 20:34:44 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:34:44 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:34:44 | INFO | Recipients count: 0
+2025-12-20 20:34:44 | INFO | [2025-12-20] Step2 OK: state store + dedupe ready. Marked SUCCESS (temporary).
+2025-12-20 20:35:40 | INFO | [2025-12-20] Already SUCCESS. Exit without doing anything.
+2025-12-20 20:39:46 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 20:39:46 | INFO | Now (KST): 2025-12-20 20:39
+2025-12-20 20:39:46 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:39:46 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:39:46 | INFO | Recipients count: 0
+2025-12-20 20:39:46 | ERROR | Attempt #1 failed: TEST_FAIL: retry flow check
+2025-12-20 20:39:46 | INFO | Retrying in 1 minutes...
+2025-12-20 20:40:46 | INFO | [2025-12-20] Attempt #2 started. Status=RUNNING
+2025-12-20 20:40:46 | INFO | Now (KST): 2025-12-20 20:40
+2025-12-20 20:40:46 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:40:46 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:40:46 | INFO | Recipients count: 0
+2025-12-20 20:40:46 | ERROR | Attempt #2 failed: TEST_FAIL: retry flow check
+2025-12-20 20:40:46 | INFO | Retrying in 1 minutes...
+2025-12-20 20:41:46 | INFO | [2025-12-20] Attempt #3 started. Status=RUNNING
+2025-12-20 20:41:46 | INFO | Now (KST): 2025-12-20 20:41
+2025-12-20 20:41:46 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:41:46 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:41:46 | INFO | Recipients count: 0
+2025-12-20 20:41:46 | ERROR | Attempt #3 failed: TEST_FAIL: retry flow check
+2025-12-20 20:41:46 | ERROR | [2025-12-20] FINAL FAILED after 3 attempt(s). Reason: TEST_FAIL: retry flow check
+2025-12-20 20:49:25 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 20:49:25 | INFO | Now (KST): 2025-12-20 20:49
+2025-12-20 20:49:25 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:49:25 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:49:25 | INFO | Recipients count: 1
+2025-12-20 20:49:25 | ERROR | Attempt #1 failed: TEST_FAIL: retry flow check
+2025-12-20 20:49:25 | INFO | Retrying in 1 minutes...
+2025-12-20 20:50:25 | INFO | [2025-12-20] Attempt #2 started. Status=RUNNING
+2025-12-20 20:50:25 | INFO | Now (KST): 2025-12-20 20:50
+2025-12-20 20:50:25 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:50:25 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:50:25 | INFO | Recipients count: 1
+2025-12-20 20:50:25 | ERROR | Attempt #2 failed: TEST_FAIL: retry flow check
+2025-12-20 20:50:25 | INFO | Retrying in 1 minutes...
+2025-12-20 20:51:25 | INFO | [2025-12-20] Attempt #3 started. Status=RUNNING
+2025-12-20 20:51:25 | INFO | Now (KST): 2025-12-20 20:51
+2025-12-20 20:51:25 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:51:25 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:51:25 | INFO | Recipients count: 1
+2025-12-20 20:51:25 | ERROR | Attempt #3 failed: TEST_FAIL: retry flow check
+2025-12-20 20:51:25 | ERROR | [2025-12-20] FINAL FAILED after 3 attempt(s). Reason: TEST_FAIL: retry flow check
+2025-12-20 20:51:31 | ERROR | Failed to send error email: (535, b'5.7.139 Authentication unsuccessful, SmtpClientAuthentication is disabled for the Tenant. Visit https://aka.ms/smtp_auth_disabled for more information. [SL2P216CA0177.KORP216.PROD.OUTLOOK.COM 2025-12-20T11:51:24.203Z 08DE3F7A4EC85041]')
+2025-12-20 20:54:13 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 20:54:13 | INFO | Now (KST): 2025-12-20 20:54
+2025-12-20 20:54:13 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:54:13 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:54:13 | INFO | Recipients count: 1
+2025-12-20 20:54:13 | ERROR | Attempt #1 failed: TEST_FAIL: retry flow check
+2025-12-20 20:54:13 | INFO | Retrying in 1 minutes...
+2025-12-20 20:55:13 | INFO | [2025-12-20] Attempt #2 started. Status=RUNNING
+2025-12-20 20:55:13 | INFO | Now (KST): 2025-12-20 20:55
+2025-12-20 20:55:13 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:55:13 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:55:13 | INFO | Recipients count: 1
+2025-12-20 20:55:13 | ERROR | Attempt #2 failed: TEST_FAIL: retry flow check
+2025-12-20 20:55:13 | INFO | Retrying in 1 minutes...
+2025-12-20 20:56:13 | INFO | [2025-12-20] Attempt #3 started. Status=RUNNING
+2025-12-20 20:56:13 | INFO | Now (KST): 2025-12-20 20:56
+2025-12-20 20:56:13 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 20:56:13 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 20:56:13 | INFO | Recipients count: 1
+2025-12-20 20:56:13 | ERROR | Attempt #3 failed: TEST_FAIL: retry flow check
+2025-12-20 20:56:13 | ERROR | [2025-12-20] FINAL FAILED after 3 attempt(s). Reason: TEST_FAIL: retry flow check
+2025-12-20 20:57:01 | INFO | [2025-12-20] Error notification email sent to 1 recipient(s).
+2025-12-20 21:01:21 | INFO | [2025-12-20] News_letter started.
+2025-12-20 21:01:21 | INFO | [2025-12-20] Attempt #4 started. Status=RUNNING
+2025-12-20 21:01:21 | INFO | Now (KST): 2025-12-20 21:01
+2025-12-20 21:01:21 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 21:01:21 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 21:01:25 | INFO | [2025-12-20] Mail sent successfully.
+2025-12-20 21:01:25 | INFO | [2025-12-20] FINAL SUCCESS after 1 attempt(s).
+2025-12-20 21:20:50 | INFO | [2025-12-20] News_letter started.
+2025-12-20 21:20:51 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 21:20:51 | INFO | Now (KST): 2025-12-20 21:20
+2025-12-20 21:20:51 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 21:20:51 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 21:20:51 | ERROR | Attempt #1 failed: __init__() got an unexpected keyword argument 'view_count'
+2025-12-20 21:20:51 | INFO | Retrying in 1 minutes...
+2025-12-20 21:21:51 | INFO | [2025-12-20] Attempt #2 started. Status=RUNNING
+2025-12-20 21:21:51 | INFO | Now (KST): 2025-12-20 21:21
+2025-12-20 21:21:51 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 21:21:51 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 21:21:52 | ERROR | Attempt #2 failed: __init__() got an unexpected keyword argument 'view_count'
+2025-12-20 21:21:52 | INFO | Retrying in 1 minutes...
+2025-12-20 21:23:25 | INFO | [2025-12-20] News_letter started.
+2025-12-20 21:23:25 | INFO | [2025-12-20] Attempt #3 started. Status=RUNNING
+2025-12-20 21:23:25 | INFO | Now (KST): 2025-12-20 21:23
+2025-12-20 21:23:25 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 21:23:25 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 21:24:41 | INFO | [2025-12-20] Mail sent successfully.
+2025-12-20 21:24:41 | INFO | [2025-12-20] FINAL SUCCESS after 1 attempt(s).
+2025-12-20 21:30:54 | INFO | [2025-12-20] News_letter started.
+2025-12-20 21:30:54 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 21:30:54 | INFO | Now (KST): 2025-12-20 21:30
+2025-12-20 21:30:54 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 21:30:54 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 21:32:21 | INFO | [2025-12-20] Mail sent successfully.
+2025-12-20 21:32:21 | INFO | [2025-12-20] FINAL SUCCESS after 1 attempt(s).
+2025-12-20 23:00:11 | INFO | [2025-12-20] News_letter started.
+2025-12-20 23:00:11 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 23:00:11 | INFO | Now (KST): 2025-12-20 23:00
+2025-12-20 23:00:11 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 23:00:11 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 23:01:52 | INFO | [2025-12-20] Mail sent successfully (HTML).
+2025-12-20 23:01:52 | INFO | [2025-12-20] FINAL SUCCESS after 1 attempt(s).
+2025-12-20 23:13:39 | INFO | [2025-12-20] News_letter started.
+2025-12-20 23:13:39 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 23:13:39 | INFO | Now (KST): 2025-12-20 23:13
+2025-12-20 23:13:39 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 23:13:39 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 23:14:55 | INFO | [2025-12-20] Mail sent successfully (HTML).
+2025-12-20 23:14:55 | INFO | [2025-12-20] FINAL SUCCESS after 1 attempt(s).
+2025-12-20 23:30:31 | INFO | [2025-12-20] News_letter started.
+2025-12-20 23:30:31 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 23:30:31 | INFO | Now (KST): 2025-12-20 23:30
+2025-12-20 23:30:31 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 23:30:31 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 23:31:19 | ERROR | Attempt #1 failed: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%EB%8C%80%ED%86%B5%EB%A0%B9%20%EB%AC%BC%EA%B1%B4%20%ED%9B%94%EC%B3%A4%EB%8B%A4%E2%80%A6%EB%8F%84%EC%9E%90%EA%B8%B0%20100%EC%97%AC%EC%A0%90%20%EB%B9%BC%EB%8F%8C%EB%A6%B0%20%EB%B2%94%EC%9D%B8%EC%9D%98%20%EC%A0%95%EC%B2%B4&sort=0&pd=1
+2025-12-20 23:31:19 | INFO | Retrying in 1 minutes...
+2025-12-20 23:32:19 | INFO | [2025-12-20] Attempt #2 started. Status=RUNNING
+2025-12-20 23:32:19 | INFO | Now (KST): 2025-12-20 23:32
+2025-12-20 23:32:19 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 23:32:19 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 23:32:34 | ERROR | Attempt #2 failed: 403 Client Error: Forbidden for url: https://search.naver.com/search.naver?where=news&query=%22%EA%B7%B8%EB%95%8C%EB%8A%94%20%EB%A7%9D%ED%95%9C%EB%8B%A4%EB%8D%94%EB%8B%88%20%EC%A7%80%EA%B8%88%EC%9D%80%3F%22%E2%80%A6%EB%8C%80%ED%86%B5%EB%A0%B9%20%EA%B3%BC%EA%B1%B0%20%EB%B0%9C%EC%96%B8%EC%97%90%20%27%EB%B0%9C%EC%B9%B5%27%20%5B%EC%9D%B4%EC%8A%88%2B%5D&sort=0&pd=1
+2025-12-20 23:32:34 | INFO | Retrying in 1 minutes...
+2025-12-20 23:33:34 | INFO | [2025-12-20] Attempt #3 started. Status=RUNNING
+2025-12-20 23:33:34 | INFO | Now (KST): 2025-12-20 23:33
+2025-12-20 23:33:34 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 23:33:34 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 23:35:07 | INFO | [2025-12-20] Mail sent successfully (HTML).
+2025-12-20 23:35:07 | INFO | [2025-12-20] FINAL SUCCESS after 3 attempt(s).
+2025-12-20 23:45:42 | INFO | [2025-12-20] News_letter started.
+2025-12-20 23:45:42 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 23:45:42 | INFO | Now (KST): 2025-12-20 23:45
+2025-12-20 23:45:42 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 23:45:42 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 23:46:55 | INFO | [2025-12-20] Mail sent successfully (HTML).
+2025-12-20 23:46:55 | INFO | [2025-12-20] FINAL SUCCESS after 1 attempt(s).
+2025-12-20 23:58:27 | INFO | [2025-12-20] News_letter started.
+2025-12-20 23:58:27 | INFO | [2025-12-20] Attempt #1 started. Status=RUNNING
+2025-12-20 23:58:27 | INFO | Now (KST): 2025-12-20 23:58
+2025-12-20 23:58:27 | INFO | Run time (KST): 2025-12-20 08:00
+2025-12-20 23:58:27 | INFO | News window (24h): 2025-12-19 08:00 ~ 2025-12-20 08:00
+2025-12-20 23:59:52 | INFO | [2025-12-20] Mail sent successfully (HTML).
+2025-12-20 23:59:52 | INFO | [2025-12-20] FINAL SUCCESS after 1 attempt(s).
+2025-12-21 00:04:52 | INFO | [2025-12-21] News_letter started.
+2025-12-21 00:04:52 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 00:04:52 | INFO | Now (KST): 2025-12-21 00:04
+2025-12-21 00:04:52 | INFO | Run time (KST): 2025-12-21 08:00
+2025-12-21 00:04:52 | INFO | News window (24h): 2025-12-20 08:00 ~ 2025-12-21 08:00
+2025-12-21 00:06:09 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 00:06:09 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).
+2025-12-21 00:29:32 | INFO | [2025-12-21] News_letter started.
+2025-12-21 00:29:32 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 00:29:32 | INFO | Now (KST): 2025-12-21 00:29
+2025-12-21 00:29:32 | INFO | Run time (KST): 2025-12-21 08:00
+2025-12-21 00:29:32 | INFO | News window (24h): 2025-12-20 08:00 ~ 2025-12-21 08:00
+2025-12-21 00:30:46 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 00:30:46 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).
+2025-12-21 00:39:53 | INFO | [2025-12-21] News_letter started.
+2025-12-21 00:39:53 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 00:39:53 | INFO | Now (KST): 2025-12-21 00:39
+2025-12-21 00:39:53 | INFO | Run time (KST): 2025-12-21 08:00
+2025-12-21 00:39:53 | INFO | News window (24h): 2025-12-20 08:00 ~ 2025-12-21 08:00
+2025-12-21 00:39:55 | INFO | [NAVER] 한국 경제 raw=3 filtered=0
+2025-12-21 00:39:55 | INFO | [NAVER] 세계 경제 raw=3 filtered=0
+2025-12-21 00:39:56 | INFO | [NAVER] IT raw=3 filtered=0
+2025-12-21 00:40:00 | INFO | [MATCH] 한국 경제 overlap=0 (out of 3)
+2025-12-21 00:40:03 | INFO | [MATCH] 세계 경제 overlap=0 (out of 3)
+2025-12-21 00:40:05 | INFO | [MATCH] IT overlap=0 (out of 3)
+2025-12-21 00:41:22 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 00:41:22 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).
+2025-12-21 00:55:30 | INFO | [2025-12-21] News_letter started.
+2025-12-21 00:55:30 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 00:55:30 | INFO | Now (KST): 2025-12-21 00:55
+2025-12-21 00:55:30 | INFO | News window (24h): 2025-12-20 00:55 ~ 2025-12-21 00:55
+2025-12-21 00:55:32 | INFO | [NAVER] 한국 경제 raw=30 filtered=0
+2025-12-21 00:55:32 | INFO | [NAVER] 세계 경제 raw=30 filtered=0
+2025-12-21 00:55:32 | INFO | [NAVER] IT raw=30 filtered=0
+2025-12-21 00:55:33 | INFO | [MATCH] 한국 경제 overlap=0 (out of 3)
+2025-12-21 00:55:35 | INFO | [MATCH] 세계 경제 overlap=0 (out of 3)
+2025-12-21 00:55:36 | INFO | [MATCH] IT overlap=0 (out of 3)
+2025-12-21 00:56:31 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 00:56:31 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).
+2025-12-21 01:02:21 | INFO | [2025-12-21] News_letter started.
+2025-12-21 01:02:21 | INFO | [2025-12-21] Already SUCCESS. Exit without doing anything.
+2025-12-21 01:02:36 | INFO | [2025-12-21] News_letter started.
+2025-12-21 01:02:36 | INFO | [2025-12-21] Already SUCCESS. Exit without doing anything.
+2025-12-21 01:03:23 | INFO | [2025-12-21] News_letter started.
+2025-12-21 01:03:23 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 01:03:23 | INFO | Now (KST): 2025-12-21 01:03
+2025-12-21 01:03:23 | INFO | News window (24h): 2025-12-20 01:03 ~ 2025-12-21 01:03
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 raw=30 (showing top 5 pubDate)
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - 장정진 기획재정부 공공정책구장 초청 공공기관-공기업 AI 대전환 혁신성... / 2025-12-20 18:48
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - 대법원 내란재판부 예규 설치에 언론이 주목한 발언은 / 2025-12-20 09:11
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - 잘하면 돈쭐, 못하면 불매… 소비자가 바꾼 기업의 미래 [쿠킹] / 2025-12-20 09:00
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - '실용적 시장주의' 이재명 정부 출범 후 '민관 원팀' 협력 강화 / 2025-12-20 06:30
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - '손해 보고 접은 기억' 기업들 돌아올까…풍력산업 키우려면[기후로운 ... / 2025-12-20 05:01
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 raw=30 filtered=5
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - 장정진 기획재정부 공공정책구장 초청 공공기관-공기업 AI 대전환 혁신성... / 2025-12-20 18:48
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - 대법원 내란재판부 예규 설치에 언론이 주목한 발언은 / 2025-12-20 09:11
+2025-12-21 01:03:25 | INFO | [NAVER] 한국 경제 - 잘하면 돈쭐, 못하면 불매… 소비자가 바꾼 기업의 미래 [쿠킹] / 2025-12-20 09:00
+2025-12-21 01:03:25 | INFO | [NAVER] 세계 경제 raw=30 (showing top 5 pubDate)
+2025-12-21 01:03:25 | INFO | [NAVER] 세계 경제 - 12·3 계엄 1년, 흔들리는 대한민국 | 표류하는 외교·안보 | 주한미군 태... / 2025-12-19 23:40
+2025-12-21 01:03:25 | INFO | [NAVER] 세계 경제 - [EDITOR'S LETTER] '백문이 불여일견', 본능을 악용하는 딥페이크 / 2025-12-19 14:28
+2025-12-21 01:03:25 | INFO | [NAVER] 세계 경제 - 복잡한 트럼프 2기 시대 ‘한국의 길’ 논의 / 2025-12-19 03:03
+2025-12-21 01:03:25 | INFO | [NAVER] 세계 경제 - 트럼프 '경제' 지지율 36%…첫 집권 이래 역대 최저 / 2025-12-18 13:34
+2025-12-21 01:03:25 | INFO | [NAVER] 세계 경제 - 일본은 어떻게 중국없이 희토류 공급망을 구축했나 [Deep Spot] / 2025-12-18 12:23
+2025-12-21 01:03:25 | INFO | [NAVER] 세계 경제 raw=30 filtered=0
+2025-12-21 01:03:25 | INFO | [NAVER] IT raw=30 (showing top 5 pubDate)
+2025-12-21 01:03:25 | INFO | [NAVER] IT - [TECH한주] 코리아써키트 'AI+합병' 날개 달았다 / 2025-12-18 08:00
+2025-12-21 01:03:25 | INFO | [NAVER] IT - [AI MY 뉴스] 유가 급락·美 금리 안정…인도 증시, 혼조 속 '종목 장세... / 2025-12-17 12:39
+2025-12-21 01:03:25 | INFO | [NAVER] IT - 내년 ‘코스피’보단 ‘미장’ 먼저…부동산은 ‘가심비’에서 ‘가성... / 2025-12-16 16:48
+2025-12-21 01:03:25 | INFO | [NAVER] IT - 바이오株 'AI 거품론' 반도체 하락 방어···돋보인 종목은? / 2025-12-16 15:58
+2025-12-21 01:03:25 | INFO | [NAVER] IT - 이재용, 내년 사업전략 논의 맞춰 귀국...1월 초 사장단 소집 / 2025-12-16 14:16
+2025-12-21 01:03:25 | INFO | [NAVER] IT raw=30 filtered=0
+2025-12-21 01:03:26 | INFO | [MATCH] 한국 경제 overlap=0 (out of 3)
+2025-12-21 01:03:27 | INFO | [MATCH] 세계 경제 overlap=0 (out of 3)
+2025-12-21 01:03:28 | INFO | [MATCH] IT overlap=0 (out of 3)
+2025-12-21 01:04:24 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 01:04:24 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).
+2025-12-21 01:16:34 | INFO | [2025-12-21] News_letter started.
+2025-12-21 01:16:34 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 01:16:34 | INFO | Now (KST): 2025-12-21 01:16
+2025-12-21 01:16:34 | INFO | News window (24h): 2025-12-20 01:16 ~ 2025-12-21 01:16
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 sort=sim raw=30 (showing top 5 pubDate)
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - 또 오른 환율 "심리적 저항선 1,500원 돌파 가능성도..日 금리인상 변수... / 2025-12-15 12:27
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - 외화유출 경로 전방위 차단… ‘금리역전 해소’ 근본 대책은 없어 [高... / 2025-12-09 18:55
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - 또 오른 환율 "심리적 저항선 1,500원 돌파 가능성도..日 금리인상 변수... / 2025-12-15 12:30
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - 고환율이 서학개미탓이라고? 금리인상 늦은 탓? 환율은 왜 오르나[경제... / 2025-11-30 06:00
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - ‘달러의 진공 상태’…천장 뚫린 환율, 일본의 길 따라가나? [EDITOR's LE... / 2025-11-24 07:01
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 fallback to sort=date raw=30 (showing top 5 pubDate)
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - [사설] 日 금리인상에 금융 불안 우려…급할 때만 기업 찾는 정부 / 2025-12-20 00:03
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - [이슈딜] 서학개미 '달러화 이민'…코스피 잘나가면 돌아온다 / 2025-12-18 16:22
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - [뉴스나우] 원·달러 환율 '8개월 만에 최고'...외환당국 긴급 대책은? / 2025-12-18 13:02
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - [2026 글로벌 경제전망] "금값 4700불 vs 유가 50불"... 역사상 가장 위험... / 2025-12-18 03:16
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 - [분석] 강달러만의 문제 아니다···조정 기대 사라진 원화 약세 / 2025-12-16 16:46
+2025-12-21 01:16:36 | INFO | [NAVER] 한국 경제 used_sort=date raw=30 filtered=0
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 sort=sim raw=30 (showing top 5 pubDate)
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - 11월 美 CPI 안정, 트럼프와 美 증시 살리나? 내년 大인플레이션(GI) 우려... / 2025-12-19 08:16
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - [뉴욕마켓워치] 흔들리는 고용·소비에 증시 혼조…채권↑·달러↓ / 2025-12-17 09:14
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - 뉴욕증시 고용보고서 충격 "연준 금리인하 전면 수정" .... 로이터 / 2025-12-17 04:52
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - [AI MY 뉴스] 유가 급락·美 금리 안정…인도 증시, 혼조 속 '종목 장세... / 2025-12-17 12:39
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - 뉴욕증시, 엇갈린 고용지표 '혼조'…테슬라 신고가·유가 5년來 최저 / 2025-12-17 06:58
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 fallback to sort=date raw=30 (showing top 5 pubDate)
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - [결산2025] 올 한해 '경제·금융 주요 뉴스' 무엇? / 2025-12-19 18:46
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - [해외시황] 뉴욕증시, CPI 둔화 신호·AI 저가 매수 유입에 '반등'…나스... / 2025-12-19 08:50
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - [굿모닝! 글로벌 뉴욕증시] 11월 CPI 예상 하회와 마이크론 어닝서프라... / 2025-12-19 08:46
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - 11월 美 CPI 안정, 트럼프와 美 증시 살리나? 내년 大인플레이션(GI) 우려... / 2025-12-19 08:16
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 - 또 불거진 오라클發 AI투자 회의론…나스닥 1.8%·브로드컴 4.5%↓[월스트... / 2025-12-18 06:48
+2025-12-21 01:16:36 | INFO | [NAVER] 세계 경제 used_sort=date raw=30 filtered=0
+2025-12-21 01:16:36 | INFO | [NAVER] IT sort=sim raw=30 (showing top 5 pubDate)
+2025-12-21 01:16:36 | INFO | [NAVER] IT - 엔비디아 주가, 10년 만에 이례적인 저평가 구간 진입했다 / 2025-12-20 09:59
+2025-12-21 01:16:36 | INFO | [NAVER] IT - 중국의 무서운 'AI 굴기' … 반도체 시장 뒤흔드나 [김진희의 글로벌포... / 2025-12-20 10:02
+2025-12-21 01:16:36 | INFO | [NAVER] IT - 전주 AMD·부산 캐리어…남부권 데이터센터에 투자 몰린다 / 2025-12-18 05:00
+2025-12-21 01:16:36 | INFO | [NAVER] IT - ‘기업가치 2조’ 리벨리온, AI 추론 시장 정조준… 박성현 대표 “엔비... / 2025-12-16 16:41
+2025-12-21 01:16:36 | INFO | [NAVER] IT - 독점의 시대는 끝났다…엔비디아 흔드는 구글? [스페셜리포트] / 2025-12-16 08:31
+2025-12-21 01:16:37 | INFO | [NAVER] IT fallback to sort=date raw=30 (showing top 5 pubDate)
+2025-12-21 01:16:37 | INFO | [NAVER] IT - 중국의 무서운 'AI 굴기' … 반도체 시장 뒤흔드나 [김진희의 글로벌포... / 2025-12-20 10:02
+2025-12-21 01:16:37 | INFO | [NAVER] IT - 엔비디아 주가, 10년 만에 이례적인 저평가 구간 진입했다 / 2025-12-20 09:59
+2025-12-21 01:16:37 | INFO | [NAVER] IT - 미, 국가 AI 프로젝트 시동..추락하던 오라클·코어위브 기사회생 [글로... / 2025-12-20 09:07
+2025-12-21 01:16:37 | INFO | [NAVER] IT - AI ‘장치 vs 서비스’로 양극화…마이크론 날고 오러클은 주춤 / 2025-12-19 05:03
+2025-12-21 01:16:37 | INFO | [NAVER] IT - 오라클은 쇼크, 마이크론은 어닝 서프라이즈…실적 내는 빅테크만 살아... / 2025-12-18 17:59
+2025-12-21 01:16:37 | INFO | [NAVER] IT used_sort=date raw=30 filtered=3
+2025-12-21 01:16:37 | INFO | [NAVER] IT - 중국의 무서운 'AI 굴기' … 반도체 시장 뒤흔드나 [김진희의 글로벌포... / 2025-12-20 10:02
+2025-12-21 01:16:37 | INFO | [NAVER] IT - 엔비디아 주가, 10년 만에 이례적인 저평가 구간 진입했다 / 2025-12-20 09:59
+2025-12-21 01:16:37 | INFO | [NAVER] IT - 미, 국가 AI 프로젝트 시동..추락하던 오라클·코어위브 기사회생 [글로... / 2025-12-20 09:07
+2025-12-21 01:16:38 | INFO | [MATCH] 한국 경제 overlap=0 (out of 3)
+2025-12-21 01:16:40 | INFO | [MATCH] 세계 경제 overlap=0 (out of 3)
+2025-12-21 01:16:41 | INFO | [MATCH] IT overlap=0 (out of 3)
+2025-12-21 01:17:48 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 01:17:48 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).

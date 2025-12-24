@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="ko"><head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="color-scheme" content="light dark">
+    <title>카카오계정으로 로그인</title>
+<!--    <link rel="stylesheet" type="text/css" th:href="@{/public/css/logout_confirm.css}">-->
+    <link rel="stylesheet" type="text/css" href="/public/css/authorize/authorize_confirm.css?v=2">
+
+    <script>
+    var color = "";
+
+    if (color && color === "light") {}
+    else if (color && color === "dark") {
+        document.documentElement.classList.add("type_dark");
+    } else {
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.documentElement.classList.add("type_dark")
+        }
+    }
+</script>
+</head>
+
+<body>
+<div id="kakaoWrap" class="agree_plugin">
+    <header id="kakaoHead">
+        <h1 class="tit_logo"><span class="ico_agree ico_logo">카카오 로그인</span></h1>
+    </header>
+    <hr class="hide">
+    <main id="kakaoContent">
+        <div id="cMain">
+            <article id="mArticle">
+                <div class="section_agree account_agree">
+                    <h2 class="screen_out">로그아웃 안내</h2>
+                    <div class="agree_cont">
+                        <div class="wrap_profile">
+                            <div class="thumb_brand">
+                                <img src="https://k.kakaocdn.net/14/dn/btr6A0gpjUq/INMoBUXAR0i6uJZ98U3UVK/o.jpg" class="thumb_img" alt="">
+                            </div>
+                            <span class="screen_out">이용중인 서비스</span>
+                            <em class="tit_brand">티스토리</em>
+                            <span class="screen_out">로그인된 계정</span>
+                            <strong class="tit_account">
+                                <span class="account_id">dhguslee@naver.com</span>
+                            </strong>
+                        </div>
+                        <div class="wrap_info">
+                            <em class="emph_account">
+                                해당 카카오 계정으로
+                                <br>
+                                '티스토리'에 로그인합니다.
+                            </em>
+                        </div>
+                    </div>
+                    <div class="wrap_btn">
+                        <form method="post" novalidate="true">
+                            <button class="btn_agree" name="user_oauth_approval" value="true" type="submit">계속하기</button>
+                            <input name="stsc" value="TYlYBAtGF7m-E5SeMSB2Ho3xhP_Sq8m0EdSj4xs754oSfleXGg9nYipxOZiM2l5ilYGOsu2YD9yE2YvM77anjuXHKCoDqQYR_t52Os5tfmHbKmgED5m-HLyWG-mpxuw6ELr1VXsDFq-_z-7p5xsetb-Kd5C0FUNlgQyuMXP1lqd5FJWQTeNgJBDBuAOUr3B6Humk9_7-NMNb1Omk2VIE2HzxMzs9xcqk7rsRHlTSnA-GPeZo92hnhLLV0g1KKtUSbNlZZgvnXIA44dolR90zA83IO6yfxsGWpJatBozyPOgwYNSdMUSoPcgzjHK6ueVQxL3umDjQZ8HHgMGSBGFkowybMInquH_Ox6sC0ojonBRj_IPUt8FqHBCD28rEikgJmPqP8RUuEgW1gxbdLzQI9CLmwFcCly_JHIOdfI67dxzie_RXOtlH46BqrYrkb2MDdEhZQPC-b8e_Pks646rWMNs6tj4FPmMKXjDS9xuA-rc" type="hidden" style="">
+                            <input name="csts" value="psoQnX3yVI2wfTsRERtcKSua_bAINwIYczPThifELv6IgicVO3hh5FNONYBrHRxtl940nxym78gax1O5sfL2H1Noe5k3g6NqyIwe_cfsSwprvuhinniwrPHLvPvmG1AYNVG9jttuERjEfLBKOlGEIhAVvJ98FhM9FyGCnosebsgvn9b0GfVgIbjKWwZZ-VdnlPldvAIrvPWUoHAecVZSNWjY470cIkuG2aL4FZe-9xk1ttNYE1OrQRL9iXnXDABbfIPyGu9kaO8c0Djd9mQ8q-IkdmCe6yNj8rqqlTADdxDG56L4f5-oTfJqVAMbUP7Qen8--kPcCtyKsySu2Cc2I1NZEl09ulemnfGkVSw1mUFnpKTbUbyQ-ZlAejyKblnoUu-4d11MV5RNJmgDqd-JjP0tvl0EFzORw4THCnngijxMQnr8c4d-mt64I03kKHhU9ePhnRjHY3o9zd-oyJRh_LRp5m_9WAAMYpZRQVzVzEbBnc95k7wBmvHQ50HQoBAYjzCX68DkXfqpg9lXgOMeUUCOYJPNQWLca6A7gRR5E_Uhl4-l5RofkbPd9UIxhXgCpEq_hH2Thic72M20_7_35OnijK3glGNg27PKOkg6iJjdRpFBQumT4PihxOoCb5Y0MWUK08azFxPwb9iaG13GNccVP28NBSQXOQdMFEmOPyDpq8Aczu2e-umQz3fk5ybBcz0YaNtBsUyvPBsdS3sG9y57YIbwlYXA2ZOWvy0zj5A" type="hidden" style="">
+                            <input name="auth_tran_id" value="anhol7eh4t83e6ddd834b023f24221217e370daed18mjffp5l4" type="hidden" style="">
+                        </form>
+                        <button type="button" class="btn_g" onclick="location.href=&quot;https:\/\/accounts.kakao.com\/login?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fclient_id%3D3e6ddd834b023f24221217e370daed18%26state%3DaHR0cHM6Ly9sYW9vbmxlZS50aXN0b3J5LmNvbS9tYW5hZ2U%26prompt%3Dselect_account%26redirect_uri%3Dhttps%253A%252F%252Fwww.tistory.com%252Fauth%252Fkakao%252Fredirect%26response_type%3Dcode%26auth_tran_id%3Danhol7eh4t83e6ddd834b023f24221217e370daed18mjffp5l4%26ka%3Dsdk%252F1.43.6%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko-KR%2520device%252FWin32%2520origin%252Fhttps%25253A%25252F%25252Fwww.tistory.com%26is_popup%3Dfalse%26through_account%3Dtrue%26additional_auth_login%3Dtrue&quot;">다른 카카오계정으로 로그인</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <hr class="hide">
+    <footer id="kakaoFoot"> <span class="txt_copyright">Copyright <a href="https://www.kakaocorp.com" target="_blank" class="link_corp">© Kakao Corp.</a> All rights reserved.</span> </footer>
+</div>
+
+
+
+</body></html>

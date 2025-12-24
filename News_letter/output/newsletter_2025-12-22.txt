@@ -1,0 +1,191 @@
+[뉴스레터] 2025년 12월 22일 주요 이슈 요약 (한국경제 RSS + 네이버 뉴스)
+
+경제, 한국경제, 미국경제, IT, Tech, 뉴스, 네이버, 미국, 엔비디아, 구글
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<style>
+body {
+    font-family: "Apple SD Gothic Neo", "Noto Sans KR", Arial, sans-serif;
+    line-height: 1.65;
+    color: #222;
+}
+.wrapper {
+    max-width: 860px;
+    margin: 0 auto;
+}
+.header-box {
+    background: #f7f3ee;
+    border: 1px solid #d7c7b8;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 30px;
+}
+.header-title {
+    font-size: 22px;
+    font-weight: 900;  /* 🔥 더 굵게 */
+    color: #1f5d2b;
+    margin-bottom: 8px;
+}
+.header-note {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.35;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #5a3a26;
+    margin-top: 36px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #b38b6d;
+}
+.article {
+    margin-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.article-title {
+    font-size: 18px;
+    font-weight: 800;  /* 🔥 기사 제목 더 굵게 */
+    margin-bottom: 6px;
+}
+.source-line {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.body {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.links {
+    font-size: 14px;
+}
+
+/* ✅ [요청 1] "원문 링크" 라벨을 출처/작성시간과 동일 색으로 */
+.link-label {
+    color: #666;        /* source-line과 동일 */
+    font-weight: normal;
+}
+
+/* ✅ [요청 2] "자세히 보기(플랫폼)" 링크를 헤더 타이틀과 같은 색 + 굵게 */
+a.main-link {
+    color: #1f5d2b;     /* header-title과 동일 */
+    font-weight: 900;   /* 더 굵게 */
+    text-decoration: none;
+}
+a.main-link:hover {
+    text-decoration: underline;
+}
+
+/* 기존 links a 스타일은 유지하되,
+   main-link가 있으면 위 규칙이 더 구체적이라(main-link) 우선 적용됨 */
+.links a {
+    color: #1f7a3f;
+    font-weight: 800;
+    text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+
+.extra {
+    background: #fafafa;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+
+<div class="header-box">
+    <div class="header-title">[뉴스레터] 2025년 12월 22일 주요 이슈 요약 (한국경제 RSS + 네이버 뉴스)</div>
+    <div class="header-note"><div style="line-height:1.3; font-size:12px; color:#666;">※ 본 내용은 "한국경제"신문의 RSS 기사 및 네이버 뉴스 검색 결과를 토대로 제작하였습니다.<br>※ 한국경제, 세계 경제, IT 분야의 데일리 주요 뉴스를 요약합니다.</div></div>
+</div>
+
+<div class='section-title'>한국 경제</div>
+
+<div class="article">
+    <div class="article-title">한국 경제 | "13월의 월급 같은 소리하네"…미혼남녀 120만원씩 토했다 [김익환의 부처 핸즈업]</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 10:37)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>국세청 통계에 따르면 2024년 귀속 근로소득 연말정산에서 추가 세금을 납부하라는 통보를 받은 직장인이 전체의 17.9%로 집계됐다. 이들의 1인당 추가 납부 세액은 평균 117만1190원으로 역대 최대를 기록했다. 기사에서는 연말정산의 소득공제·세액공제 구조상 부양가족과 자녀가 있는 기혼자가 상대적으로 혜택을 크게 받는다고 설명하며, 이런 이유로 연말정산이 ‘싱글세’로 불린다는 평가가 나온다고 전했다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/202512227689i' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+
+<div class="article">
+    <div class="article-title">한국 경제 | '흑백요리사' 안유성 손잡은 자이글…"주방가전 넘어 HMR까지"</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 10:35)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>스마트 주방가전 전문기업 자이글이 대한민국 조리 명장 안유성 셰프가 운영하는 안유성에프엔비와 전략적 업무협약(MOU)을 체결했다고 밝혔다. 이번 협약은 자이글의 기술력과 안유성 셰프의 조리 철학을 결합해 식품·주방가전·가정간편식(HMR) 등으로 사업을 확대하기 위한 행보로 소개됐다. 양사는 브랜드 신뢰도 확대와 공동 마케팅, 온·오프라인 네트워크 활용 등 전방위 협력을 추진하며, 안유성 셰프의 브랜드 IP와 메뉴 개발 노하우를 접목한 프리미엄 제품 라인업도 예고했다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/202512227971i' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+
+<div class="article">
+    <div class="article-title">한국 경제 | '반포 디에이치 클래스트'에 들어가는 창호는?</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 10:31)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>서울 강남지역 최대 재건축 사업으로 꼽히는 ‘반포 디에이치 클래스트’ 현장에 적용될 창호로, 이건창호의 ‘ESS 300 LS’가 결정됐다. 이건창호는 현대건설과 ‘반포주공1단지 주택재건축정비사업(디에이치 클래스트)’의 창호 및 유리 공사 공급계약을 체결했다고 밝혔다. 적용 제품인 ‘ESS 300 LS’는 알루미늄 내구성과 PVC 단열 성능을 결합한 하이브리드 창호로, “에너지소비효율 1등급의 단열 성능과 기밀 성능”을 갖췄다고 설명된다. 또한 반포 1·2·4주구 전용 특화 옵션으로 고강도 알루미늄과 스틸보강재, 기능성 엔드캡 등을 적용해 구조적 안정성과 심미성을 강화한다는 내용도 함께 전해졌다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/202512227920i' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+<div class='section-title'>세계 경제</div>
+
+<div class="article">
+    <div class="article-title">세계 경제 | 미국판 올리브영 '울타뷰티', 불황 속 '립스틱 효과'로 질주[핫픽!해외주식]</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 09:19)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>울타뷰티는 불경기 국면에서도 매출이 성장하며 주가가 올해 들어 꾸준히 상승세를 보이고 있다. 2026회계연도 3분기(8~10월) 매출은 전년 동기 대비 12.9% 늘었고, EPS도 시장 예상을 웃돌았는데, 기사에서는 소비 불황 속 ‘립스틱 효과’와 함께 매장·디지털 경험 개선, 마케팅 강화가 성과로 이어졌다고 전한다. 또한 아누아·메디큐브·티르티르·퓌 등 K뷰티 브랜드 입점이 스킨케어 매출을 견인했다는 회사 측 언급도 나온다. 다만 대규모 투자 영향으로 3분기 영업이익과 영업이익률이 하락해, 마진 개선의 ‘지속 가능성’이 관전 포인트로 제시된다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/202512193301i' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+
+<div class="article">
+    <div class="article-title">세계 경제 | 삭제하고, 찔끔찔끔 공개, 트럼프 발목 잡는 '엡스타인 망령'</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 06:56)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>미 법무부가 ‘엡스타인 파일’을 순차 공개하는 과정에서 도널드 트럼프 대통령 사진이 삭제된 사실이 알려지며 논란이 커지고 있다. 토드 블랜치 법무부 부장관은 해당 사진에 여성들이 있어 우려가 제기돼 내렸다고 해명하면서, 신원이 식별될 수 있다는 신고가 들어오면 삭제·조사한다고 밝혔다. 다만 사회자의 ‘트럼프 대통령과 피해자 관련을 뜻하느냐’는 지적은 부인했고, 트럼프 대통령이 언급되거나 사진이 있으면 공개하겠다고 했다. 공개가 일부에 그치고 삭제까지 이어지자 여야에서 비판이 확산되는 가운데, 법무부는 피해자 보호 등을 이유로 향후 몇 주에 걸쳐 파일 수십만 개를 추가 공개할 방침이라고 밝혔다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/2025122272587' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+
+<div class="article">
+    <div class="article-title">세계 경제 | "고소득 외국인에만 술 판매"…'금주 국가' 사우디의 실험</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-21 21:02)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>주류가 엄격히 금지된 사우디아라비아에서, 리야드 외교단지의 비무슬림 외교관 전용 주류 매점이 최근 ‘프리미엄 거주권(이크마)’을 가진 비무슬림 외국인에게도 주류를 판매하기 시작했다는 보도가 나왔다. 별도 공지 없이 입소문으로 방문객이 늘며 줄이 목격되고, 매장에는 주류 판매 안내가 없고 휴대전화·카메라 반입도 제한되는 등 운영은 매우 조용히 이뤄지는 분위기라고 전해진다. 다만 외교관과 프리미엄 거주권자 외 사우디 시민과 일반 외국인은 여전히 술을 구매할 수 없으며, AP통신은 이를 ‘비전 2030’ 기조 속에서 종교·관습적 금기를 조금씩 허무는 흐름의 한 사례로 설명했다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/2025122171247' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+<div class='section-title'>IT</div>
+
+<div class="article">
+    <div class="article-title">IT | 자생한방병원, WHO 전통의학 혁신 선도기관 선정</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 10:06)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>자생한방병원이 세계보건기구(WHO)로부터 전통의학을 기반으로 과학·기술·사회기여 측면의 혁신성을 보인 선도 기관으로 인정받았다. 병원은 WHO 글로벌 전통의학센터(GTMC)가 주관한 ‘건강·문화유산 혁신기관(Health &amp; Heritage Innovations)’에 최종 선정됐다고 밝혔다. 이번 공모는 세계 1175개 기관이 지원해 21개 기관이 최종 선정됐으며, 발표는 인도 뉴델리에서 열린 ‘WHO 전통의학 글로벌 서밋’에서 진행됐다. 선정 기관들은 WHO로부터 멘토링, 지속가능성 강화, 글로벌 네트워크 확대 등의 지원을 받게 된다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/202512227805i' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+
+<div class="article">
+    <div class="article-title">IT | LG유플러스, 노키아와 '차세대' 가상화 기지국 기술 검증</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 10:02)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>LG유플러스가 노키아와 함께 차세대 가상화 기지국 기술인 ‘클라우드랜(Cloud RAN)’을 상용망 환경에서 검증하는 데 성공했다고 밝혔다. 양사는 경북 청도군에 필드 시험망을 구축한 뒤, 실제 5G 이용 환경에서 기지국 전환, 데이터 전송 속도, 처리 용량, 전력 소비 효율 등을 시험해 성과를 확인했다. LG유플러스는 장비 설치·원격 작업·설치 후 검증 자동화 등 운영 편의성 기능도 함께 점검하며 개선점을 확인했다고 설명했다. 회사는 이번 검증이 기지국 기능의 가상화·중앙 집중화가 실제 환경에서도 안정적으로 작동함을 보여줬고, AI 기반 무선망(AI-RAN) 적용을 위한 기반을 마련했다고 덧붙였다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/202512227509g' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+
+<div class="article">
+    <div class="article-title">IT | 조아제약, 인니서 어린이 영양제 '할랄 인증' 영구화</div>
+    <div class="source-line">출처/작성시간: 한국경제(2025-12-22 09:44)</div>
+    <div class="body"><p style='margin:0 0 10px 0; line-height:1.6;'>조아제약은 수출용 어린이 영양제 ‘잘크톤 스텝 1·2’의 인도네시아 할랄 인증 유효기간이 무기한으로 전환됐다고 밝혔다. 회사는 인도네시아 정부 시행령에 따라 원료 및 제조 공정 변경이 없으면 인증 효력이 지속되는 체계로 바뀐 만큼, 별도의 갱신 비용이나 추가 절차 없이 할랄 로고를 계속 사용할 계획이다. 조아제약은 이로 인해 기존 4년 주기의 갱신 비용과 현장·문서 심사 관련 리스크가 줄어들 것으로 보면서도, 원료 및 공정 변경 여부에 대한 품질보증·품질관리 체계는 기존과 동일하게 운영하겠다고 했다.</p></div>
+    <div class="links"><span class='link-label'>원문 링크:</span> <a href='https://www.hankyung.com/article/202512227653i' class='main-link'>자세히 보기(한국경제)</a></div>
+
+</div>
+
+</div>
+</body>
+</html>

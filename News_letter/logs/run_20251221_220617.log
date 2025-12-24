@@ -1,0 +1,6 @@
+RUN.PY STARTED
+2025-12-21 22:06:18 | INFO | [2025-12-21] News_letter started.
+2025-12-21 22:06:18 | INFO | Recipients count: 1
+2025-12-21 22:06:18 | INFO | Now (KST): 2025-12-21 22:06
+2025-12-21 22:06:18 | INFO | News window (24h): 2025-12-20 22:06 ~ 2025-12-21 22:06
+2025-12-21 22:06:18 | INFO | [2025-12-21] Already SUCCESS. Exit without doing anything.

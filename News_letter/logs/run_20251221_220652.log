@@ -1,0 +1,109 @@
+RUN.PY STARTED
+2025-12-21 22:06:53 | INFO | [2025-12-21] News_letter started.
+2025-12-21 22:06:53 | INFO | Recipients count: 1
+2025-12-21 22:06:53 | INFO | Now (KST): 2025-12-21 22:06
+2025-12-21 22:06:53 | INFO | News window (24h): 2025-12-20 22:06 ~ 2025-12-21 22:06
+2025-12-21 22:06:53 | INFO | [NAVER] API enabled (client id/secret present).
+2025-12-21 22:06:53 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 22:06:53 | INFO | [SECTION] «—±π ∞Ê¡¶ started.
+2025-12-21 22:06:53 | INFO | [HK] «—±π ∞Ê¡¶ raw=50 selected=3
+2025-12-21 22:06:53 | INFO | [HK_SEL] «—±π ∞Ê¡¶ - ∞Ì∑¡æ∆ø¨ "⁄∏¡¶∑√º“ º≥∏≥, ±π∞°¿˚ ±‚»∏¿Ã¿⁄ ±‚æ˜¿∏∑Œº≠µµ 'ƒˆ≈“¡°«¡' ±‚»∏" / 2025-12-21 21:41 / https://www.hankyung.com/article/202512217143g
+2025-12-21 22:06:53 | INFO | [HK_SEL] «—±π ∞Ê¡¶ - ø£∫Òµæ∆ "ªÔº∫ HBM4 √÷∞Ì"°¶∑Á∫Û AI ∞°º”±‚ ≈◊Ω∫∆Æº≠ '»£∆Ú' / 2025-12-21 19:56 / https://www.hankyung.com/article/2025122170937
+2025-12-21 22:06:53 | INFO | [HK_SEL] «—±π ∞Ê¡¶ - ƒÌ∆Œ "∫ŒªÁ¿Â¿Ã ¡˜ø¯ «–¥Î"°¶¿¸ ¿”ø¯ '»∏ªÁ «„¿ß¡÷¿Â' π›π⁄ / 2025-12-21 18:56 / https://www.hankyung.com/article/2025122170407
+2025-12-21 22:06:53 | INFO | [NAVER_QUERY] «—±π ∞Ê¡¶ query='«—±π ∞Ê¡¶' (from NAVER_QUERIES.get(sec, sec))
+2025-12-21 22:06:53 | INFO | [NAVER_FETCH] «—±π ∞Ê¡¶ primary_sort_used=sim raw=0
+2025-12-21 22:06:53 | INFO | [NAVER_DEBUG] «—±π ∞Ê¡¶ type(items)=<class 'list'>
+2025-12-21 22:06:53 | INFO | [NAVER_FILTER] «—±π ∞Ê¡¶ after_window filtered=0
+2025-12-21 22:06:53 | INFO | [NAVER_FALLBACK] «—±π ∞Ê¡¶ filtered<3. fallback to sort=date with SAME query='«—±π ∞Ê¡¶'
+2025-12-21 22:06:53 | INFO | [NAVER_FETCH] «—±π ∞Ê¡¶ fallback_sort=date raw=0
+2025-12-21 22:06:53 | INFO | [NAVER_FILTER] «—±π ∞Ê¡¶ after_window(filtered by date) filtered=0
+2025-12-21 22:06:53 | INFO | [NAVER_FINAL] «—±π ∞Ê¡¶ used_sort=date final=0
+2025-12-21 22:06:53 | INFO | [MATCH_DETAIL] «—±π ∞Ê¡¶ HK#0 no match (best=0.00) HK='∞Ì∑¡æ∆ø¨ "⁄∏¡¶∑√º“ º≥∏≥, ±π∞°¿˚ ±‚»∏¿Ã¿⁄ ±‚æ˜¿∏∑Œº≠µµ 'ƒˆ≈“¡°«¡' ±‚»∏"'
+2025-12-21 22:06:53 | INFO | [MATCH_DETAIL] «—±π ∞Ê¡¶ HK#1 no match (best=0.00) HK='ø£∫Òµæ∆ "ªÔº∫ HBM4 √÷∞Ì"°¶∑Á∫Û AI ∞°º”±‚ ≈◊Ω∫∆Æº≠ '»£∆Ú''
+2025-12-21 22:06:53 | INFO | [MATCH_DETAIL] «—±π ∞Ê¡¶ HK#2 no match (best=0.00) HK='ƒÌ∆Œ "∫ŒªÁ¿Â¿Ã ¡˜ø¯ «–¥Î"°¶¿¸ ¿”ø¯ '»∏ªÁ «„¿ß¡÷¿Â' π›π⁄'
+2025-12-21 22:06:53 | INFO | [MATCH] «—±π ∞Ê¡¶ overlap=0 (out of 3)
+2025-12-21 22:06:54 | INFO | [FETCH] «—±π ∞Ê¡¶ HK#0 text_len=1556 url=https://www.hankyung.com/article/202512217143g
+2025-12-21 22:06:54 | INFO | [RELATED_TEXT] «—±π ∞Ê¡¶ HK#0 no matched naver.
+2025-12-21 22:07:01 | INFO | [GPT] «—±π ∞Ê¡¶ HK#0 body_html_len=422
+2025-12-21 22:07:01 | INFO | [FETCH] «—±π ∞Ê¡¶ HK#1 text_len=551 url=https://www.hankyung.com/article/2025122170937
+2025-12-21 22:07:01 | INFO | [RELATED_TEXT] «—±π ∞Ê¡¶ HK#1 no matched naver.
+2025-12-21 22:07:06 | INFO | [GPT] «—±π ∞Ê¡¶ HK#1 body_html_len=302
+2025-12-21 22:07:06 | INFO | [FETCH] «—±π ∞Ê¡¶ HK#2 text_len=1283 url=https://www.hankyung.com/article/2025122170407
+2025-12-21 22:07:06 | INFO | [RELATED_TEXT] «—±π ∞Ê¡¶ HK#2 no matched naver.
+2025-12-21 22:07:15 | INFO | [GPT] «—±π ∞Ê¡¶ HK#2 body_html_len=304
+2025-12-21 22:07:15 | INFO | [EXTRA] «—±π ∞Ê¡¶ nv_total=0 used_for_match=0 extras=0
+2025-12-21 22:07:15 | INFO | [SECTION] «—±π ∞Ê¡¶ done. render_items=3 (main=3, extra=0)
+2025-12-21 22:07:15 | INFO | [SECTION] ºº∞Ë ∞Ê¡¶ started.
+2025-12-21 22:07:15 | INFO | [HK] ºº∞Ë ∞Ê¡¶ raw=50 selected=3
+2025-12-21 22:07:15 | INFO | [HK_SEL] ºº∞Ë ∞Ê¡¶ - "∞Ìº“µÊ ø‹±π¿Œø°∏∏ º˙ ∆«∏≈"°¶'±›¡÷ ±π∞°' ªÁøÏµ¿« Ω««Ë / 2025-12-21 21:02 / https://www.hankyung.com/article/2025122171247
+2025-12-21 22:07:15 | INFO | [HK_SEL] ºº∞Ë ∞Ê¡¶ - "≈©∏ÆΩ∫∏∂Ω∫∞° ¥Î∏Ò" ∏ÆæÛµπ ªÁ∑Ø 'øÏ∏£∏£'°¶AI ±‚¥…µµ ≈æ¿Á / 2025-12-21 20:45 / https://www.hankyung.com/article/2025122171077
+2025-12-21 22:07:15 | INFO | [HK_SEL] ºº∞Ë ∞Ê¡¶ - »ﬁæÁ¡ˆº≠ 'º”ø  ≥Î√‚' ∞ÓøπøÓ¿¸°¶30¥Î ø©º∫ øµªÛø° '»≠µÈ¬¶' / 2025-12-21 19:43 / https://www.hankyung.com/article/2025122170747
+2025-12-21 22:07:15 | INFO | [NAVER_QUERY] ºº∞Ë ∞Ê¡¶ query='ºº∞Ë ∞Ê¡¶' (from NAVER_QUERIES.get(sec, sec))
+2025-12-21 22:07:15 | INFO | [NAVER_FETCH] ºº∞Ë ∞Ê¡¶ primary_sort_used=sim raw=0
+2025-12-21 22:07:15 | INFO | [NAVER_DEBUG] ºº∞Ë ∞Ê¡¶ type(items)=<class 'list'>
+2025-12-21 22:07:15 | INFO | [NAVER_FILTER] ºº∞Ë ∞Ê¡¶ after_window filtered=0
+2025-12-21 22:07:15 | INFO | [NAVER_FALLBACK] ºº∞Ë ∞Ê¡¶ filtered<3. fallback to sort=date with SAME query='ºº∞Ë ∞Ê¡¶'
+2025-12-21 22:07:15 | INFO | [NAVER_FETCH] ºº∞Ë ∞Ê¡¶ fallback_sort=date raw=0
+2025-12-21 22:07:15 | INFO | [NAVER_FILTER] ºº∞Ë ∞Ê¡¶ after_window(filtered by date) filtered=0
+2025-12-21 22:07:15 | INFO | [NAVER_FINAL] ºº∞Ë ∞Ê¡¶ used_sort=date final=0
+2025-12-21 22:07:15 | INFO | [MATCH_DETAIL] ºº∞Ë ∞Ê¡¶ HK#0 no match (best=0.00) HK='"∞Ìº“µÊ ø‹±π¿Œø°∏∏ º˙ ∆«∏≈"°¶'±›¡÷ ±π∞°' ªÁøÏµ¿« Ω««Ë'
+2025-12-21 22:07:15 | INFO | [MATCH_DETAIL] ºº∞Ë ∞Ê¡¶ HK#1 no match (best=0.00) HK='"≈©∏ÆΩ∫∏∂Ω∫∞° ¥Î∏Ò" ∏ÆæÛµπ ªÁ∑Ø 'øÏ∏£∏£'°¶AI ±‚¥…µµ ≈æ¿Á'
+2025-12-21 22:07:15 | INFO | [MATCH_DETAIL] ºº∞Ë ∞Ê¡¶ HK#2 no match (best=0.00) HK='»ﬁæÁ¡ˆº≠ 'º”ø  ≥Î√‚' ∞ÓøπøÓ¿¸°¶30¥Î ø©º∫ øµªÛø° '»≠µÈ¬¶''
+2025-12-21 22:07:15 | INFO | [MATCH] ºº∞Ë ∞Ê¡¶ overlap=0 (out of 3)
+2025-12-21 22:07:15 | INFO | [FETCH] ºº∞Ë ∞Ê¡¶ HK#0 text_len=1059 url=https://www.hankyung.com/article/2025122171247
+2025-12-21 22:07:15 | INFO | [RELATED_TEXT] ºº∞Ë ∞Ê¡¶ HK#0 no matched naver.
+2025-12-21 22:07:22 | INFO | [GPT] ºº∞Ë ∞Ê¡¶ HK#0 body_html_len=339
+2025-12-21 22:07:22 | INFO | [FETCH] ºº∞Ë ∞Ê¡¶ HK#1 text_len=973 url=https://www.hankyung.com/article/2025122171077
+2025-12-21 22:07:22 | INFO | [RELATED_TEXT] ºº∞Ë ∞Ê¡¶ HK#1 no matched naver.
+2025-12-21 22:07:28 | INFO | [GPT] ºº∞Ë ∞Ê¡¶ HK#1 body_html_len=289
+2025-12-21 22:07:29 | INFO | [FETCH] ºº∞Ë ∞Ê¡¶ HK#2 text_len=691 url=https://www.hankyung.com/article/2025122170747
+2025-12-21 22:07:29 | INFO | [RELATED_TEXT] ºº∞Ë ∞Ê¡¶ HK#2 no matched naver.
+2025-12-21 22:07:35 | INFO | [GPT] ºº∞Ë ∞Ê¡¶ HK#2 body_html_len=332
+2025-12-21 22:07:35 | INFO | [EXTRA] ºº∞Ë ∞Ê¡¶ nv_total=0 used_for_match=0 extras=0
+2025-12-21 22:07:35 | INFO | [SECTION] ºº∞Ë ∞Ê¡¶ done. render_items=3 (main=3, extra=0)
+2025-12-21 22:07:35 | INFO | [SECTION] IT started.
+2025-12-21 22:07:35 | INFO | [HK] IT raw=50 selected=3
+2025-12-21 22:07:35 | INFO | [HK_SEL] IT - KT, ª˝º∫ AI ¿⁄∞›¡ı ≥ª≥˘¥Ÿ°¶AICE ¡¶≥ ∑π¿Ã∆º∫Í √‚Ω√ / 2025-12-21 18:43 / https://www.hankyung.com/article/2025122168471
+2025-12-21 22:07:35 | INFO | [HK_SEL] IT - æÁ¿⁄ƒƒ ∆Ø«„, ªÛøÎ»≠∑Œ π´∞‘¡ﬂΩ… ¿Ãµø / 2025-12-21 18:42 / https://www.hankyung.com/article/2025122168491
+2025-12-21 22:07:35 | INFO | [HK_SEL] IT - "≥◊¿Ãπˆ∞° ¡Ÿ ºˆ ¿÷¥¬ ø¿«¡∂Û¿Œ ∞Ê«Ë°¶««¡ˆƒ√ AI∑Œ ≤…««øÏ∞⁄¥Ÿ" / 2025-12-21 18:40 / https://www.hankyung.com/article/2025122169641
+2025-12-21 22:07:35 | INFO | [NAVER_QUERY] IT query='IT ¿Œ∞¯¡ˆ¥…' (from NAVER_QUERIES.get(sec, sec))
+2025-12-21 22:07:35 | INFO | [NAVER_FETCH] IT primary_sort_used=sim raw=0
+2025-12-21 22:07:35 | INFO | [NAVER_DEBUG] IT type(items)=<class 'list'>
+2025-12-21 22:07:35 | INFO | [NAVER_FILTER] IT after_window filtered=0
+2025-12-21 22:07:35 | INFO | [NAVER_FALLBACK] IT filtered<3. fallback to sort=date with SAME query='IT ¿Œ∞¯¡ˆ¥…'
+2025-12-21 22:07:35 | INFO | [NAVER_FETCH] IT fallback_sort=date raw=0
+2025-12-21 22:07:35 | INFO | [NAVER_FILTER] IT after_window(filtered by date) filtered=0
+2025-12-21 22:07:35 | INFO | [NAVER_FINAL] IT used_sort=date final=0
+2025-12-21 22:07:35 | INFO | [MATCH_DETAIL] IT HK#0 no match (best=0.00) HK='KT, ª˝º∫ AI ¿⁄∞›¡ı ≥ª≥˘¥Ÿ°¶AICE ¡¶≥ ∑π¿Ã∆º∫Í √‚Ω√'
+2025-12-21 22:07:35 | INFO | [MATCH_DETAIL] IT HK#1 no match (best=0.00) HK='æÁ¿⁄ƒƒ ∆Ø«„, ªÛøÎ»≠∑Œ π´∞‘¡ﬂΩ… ¿Ãµø'
+2025-12-21 22:07:35 | INFO | [MATCH_DETAIL] IT HK#2 no match (best=0.00) HK='"≥◊¿Ãπˆ∞° ¡Ÿ ºˆ ¿÷¥¬ ø¿«¡∂Û¿Œ ∞Ê«Ë°¶««¡ˆƒ√ AI∑Œ ≤…««øÏ∞⁄¥Ÿ"'
+2025-12-21 22:07:35 | INFO | [MATCH] IT overlap=0 (out of 3)
+2025-12-21 22:07:35 | INFO | [FETCH] IT HK#0 text_len=936 url=https://www.hankyung.com/article/2025122168471
+2025-12-21 22:07:35 | INFO | [RELATED_TEXT] IT HK#0 no matched naver.
+2025-12-21 22:07:40 | INFO | [GPT] IT HK#0 body_html_len=297
+2025-12-21 22:07:40 | INFO | [FETCH] IT HK#1 text_len=810 url=https://www.hankyung.com/article/2025122168491
+2025-12-21 22:07:40 | INFO | [RELATED_TEXT] IT HK#1 no matched naver.
+2025-12-21 22:07:45 | INFO | [GPT] IT HK#1 body_html_len=390
+2025-12-21 22:07:45 | INFO | [FETCH] IT HK#2 text_len=3054 url=https://www.hankyung.com/article/2025122169641
+2025-12-21 22:07:45 | INFO | [RELATED_TEXT] IT HK#2 no matched naver.
+2025-12-21 22:07:50 | INFO | [GPT] IT HK#2 body_html_len=351
+2025-12-21 22:07:50 | INFO | [EXTRA] IT nv_total=0 used_for_match=0 extras=0
+2025-12-21 22:07:50 | INFO | [SECTION] IT done. render_items=3 (main=3, extra=0)
+2025-12-21 22:07:50 | INFO | [RENDER] building HTML title='[¥∫Ω∫∑π≈Õ] 2025≥‚ 12ø˘ 21¿œ ¡÷ø‰ ¿ÃΩ¥ ø‰æ‡ («—±π∞Ê¡¶ RSS + ≥◊¿Ãπˆ ¥∫Ω∫)' subject='[DH ¥∫Ω∫∑π≈Õ] 2025≥‚ 12ø˘ 21¿œ ¡÷ø‰ ¿ÃΩ¥ ø‰æ‡ («—±π∞Ê¡¶ RSS + ≥◊¿Ãπˆ ¥∫Ω∫)'
+2025-12-21 22:07:50 | INFO | [RENDER] HTML built len=8629
+2025-12-21 22:07:50 | INFO | [FILE] newsletter html saved: output\newsletter_2025-12-21.html
+2025-12-21 22:07:50 | INFO | [FILE] newsletter txt saved: output\newsletter_2025-12-21.txt
+2025-12-21 22:07:50 | INFO | [MAIL] send start to=['dhlee@pndsolution.com'] subject='[DH ¥∫Ω∫∑π≈Õ] 2025≥‚ 12ø˘ 21¿œ ¡÷ø‰ ¿ÃΩ¥ ø‰æ‡ («—±π∞Ê¡¶ RSS + ≥◊¿Ãπˆ ¥∫Ω∫)' html_len=8629
+2025-12-21 22:07:53 | INFO | [MAIL] send success.
+2025-12-21 22:07:53 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 22:07:54 | INFO | [TISTORY] launched: D:\Miniconda\envs\py39\python.exe src\tistory_login_only.py
+2025-12-21 22:07:54 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).
+D:\Miniconda\envs\py39\python.exe: can't open file 'C:\Users\user\OneDrive\01. Codings\00. Í∞úÏù∏ ÏûëÏóÖ\Agent\New_letter\src\src\tistory_login_only.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\01. Codings\00. ∞≥¿Œ ¿€æ˜\Agent\New_letter\src\tistory_login_only.py", line 274, in <module>
+    main()
+  File "C:\Users\user\OneDrive\01. Codings\00. ∞≥¿Œ ¿€æ˜\Agent\New_letter\src\tistory_login_only.py", line 225, in main
+    _wait_port_open("127.0.0.1", port, timeout_sec=12)
+  File "C:\Users\user\OneDrive\01. Codings\00. ∞≥¿Œ ¿€æ˜\Agent\New_letter\src\tistory_login_only.py", line 38, in _wait_port_open
+    raise RuntimeError(f"remote debugging ∆˜∆Æ({port})∞° ø≠∏Æ¡ˆ æ æ“Ω¿¥œ¥Ÿ.")
+RuntimeError: remote debugging ∆˜∆Æ(9222)∞° ø≠∏Æ¡ˆ æ æ“Ω¿¥œ¥Ÿ.

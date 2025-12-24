@@ -1,0 +1,106 @@
+RUN.PY STARTED
+2025-12-21 22:01:51 | INFO | [2025-12-21] News_letter started.
+2025-12-21 22:01:51 | INFO | Recipients count: 1
+2025-12-21 22:01:51 | INFO | Now (KST): 2025-12-21 22:01
+2025-12-21 22:01:51 | INFO | News window (24h): 2025-12-20 22:01 ~ 2025-12-21 22:01
+2025-12-21 22:01:51 | INFO | [NAVER] API enabled (client id/secret present).
+2025-12-21 22:01:51 | INFO | [2025-12-21] Attempt #1 started. Status=RUNNING
+2025-12-21 22:01:51 | INFO | [SECTION] 한국 경제 started.
+2025-12-21 22:01:51 | INFO | [HK] 한국 경제 raw=50 selected=3
+2025-12-21 22:01:51 | INFO | [HK_SEL] 한국 경제 - 고려아연 "美제련소 설립, 국가적 기회이자 기업으로서도 '퀀텀점프' 기회" / 2025-12-21 21:41 / https://www.hankyung.com/article/202512217143g
+2025-12-21 22:01:51 | INFO | [HK_SEL] 한국 경제 - 엔비디아 "삼성 HBM4 최고"…루빈 AI 가속기 테스트서 '호평' / 2025-12-21 19:56 / https://www.hankyung.com/article/2025122170937
+2025-12-21 22:01:51 | INFO | [HK_SEL] 한국 경제 - 쿠팡 "부사장이 직원 학대"…전 임원 '회사 허위주장' 반박 / 2025-12-21 18:56 / https://www.hankyung.com/article/2025122170407
+2025-12-21 22:01:51 | INFO | [NAVER_QUERY] 한국 경제 query='한국 경제' (from NAVER_QUERIES.get(sec, sec))
+2025-12-21 22:01:51 | INFO | [NAVER_FETCH] 한국 경제 primary_sort_used=sim raw=0
+2025-12-21 22:01:51 | INFO | [NAVER_DEBUG] 한국 경제 type(items)=<class 'list'>
+2025-12-21 22:01:51 | INFO | [NAVER_FILTER] 한국 경제 after_window filtered=0
+2025-12-21 22:01:51 | INFO | [NAVER_FALLBACK] 한국 경제 filtered<3. fallback to sort=date with SAME query='한국 경제'
+2025-12-21 22:01:51 | INFO | [NAVER_FETCH] 한국 경제 fallback_sort=date raw=0
+2025-12-21 22:01:51 | INFO | [NAVER_FILTER] 한국 경제 after_window(filtered by date) filtered=0
+2025-12-21 22:01:51 | INFO | [NAVER_FINAL] 한국 경제 used_sort=date final=0
+2025-12-21 22:01:51 | INFO | [MATCH_DETAIL] 한국 경제 HK#0 no match (best=0.00) HK='고려아연 "美제련소 설립, 국가적 기회이자 기업으로서도 '퀀텀점프' 기회"'
+2025-12-21 22:01:51 | INFO | [MATCH_DETAIL] 한국 경제 HK#1 no match (best=0.00) HK='엔비디아 "삼성 HBM4 최고"…루빈 AI 가속기 테스트서 '호평''
+2025-12-21 22:01:51 | INFO | [MATCH_DETAIL] 한국 경제 HK#2 no match (best=0.00) HK='쿠팡 "부사장이 직원 학대"…전 임원 '회사 허위주장' 반박'
+2025-12-21 22:01:51 | INFO | [MATCH] 한국 경제 overlap=0 (out of 3)
+2025-12-21 22:01:51 | INFO | [FETCH] 한국 경제 HK#0 text_len=1556 url=https://www.hankyung.com/article/202512217143g
+2025-12-21 22:01:51 | INFO | [RELATED_TEXT] 한국 경제 HK#0 no matched naver.
+2025-12-21 22:02:00 | INFO | [GPT] 한국 경제 HK#0 body_html_len=402
+2025-12-21 22:02:00 | INFO | [FETCH] 한국 경제 HK#1 text_len=551 url=https://www.hankyung.com/article/2025122170937
+2025-12-21 22:02:00 | INFO | [RELATED_TEXT] 한국 경제 HK#1 no matched naver.
+2025-12-21 22:02:06 | INFO | [GPT] 한국 경제 HK#1 body_html_len=308
+2025-12-21 22:02:07 | INFO | [FETCH] 한국 경제 HK#2 text_len=1283 url=https://www.hankyung.com/article/2025122170407
+2025-12-21 22:02:07 | INFO | [RELATED_TEXT] 한국 경제 HK#2 no matched naver.
+2025-12-21 22:02:15 | INFO | [GPT] 한국 경제 HK#2 body_html_len=378
+2025-12-21 22:02:15 | INFO | [EXTRA] 한국 경제 nv_total=0 used_for_match=0 extras=0
+2025-12-21 22:02:15 | INFO | [SECTION] 한국 경제 done. render_items=3 (main=3, extra=0)
+2025-12-21 22:02:15 | INFO | [SECTION] 세계 경제 started.
+2025-12-21 22:02:15 | INFO | [HK] 세계 경제 raw=50 selected=3
+2025-12-21 22:02:15 | INFO | [HK_SEL] 세계 경제 - "고소득 외국인에만 술 판매"…'금주 국가' 사우디의 실험 / 2025-12-21 21:02 / https://www.hankyung.com/article/2025122171247
+2025-12-21 22:02:15 | INFO | [HK_SEL] 세계 경제 - "크리스마스가 대목" 리얼돌 사러 '우르르'…AI 기능도 탑재 / 2025-12-21 20:45 / https://www.hankyung.com/article/2025122171077
+2025-12-21 22:02:15 | INFO | [HK_SEL] 세계 경제 - 휴양지서 '속옷 노출' 곡예운전…30대 여성 영상에 '화들짝' / 2025-12-21 19:43 / https://www.hankyung.com/article/2025122170747
+2025-12-21 22:02:15 | INFO | [NAVER_QUERY] 세계 경제 query='세계 경제' (from NAVER_QUERIES.get(sec, sec))
+2025-12-21 22:02:15 | INFO | [NAVER_FETCH] 세계 경제 primary_sort_used=sim raw=0
+2025-12-21 22:02:15 | INFO | [NAVER_DEBUG] 세계 경제 type(items)=<class 'list'>
+2025-12-21 22:02:15 | INFO | [NAVER_FILTER] 세계 경제 after_window filtered=0
+2025-12-21 22:02:15 | INFO | [NAVER_FALLBACK] 세계 경제 filtered<3. fallback to sort=date with SAME query='세계 경제'
+2025-12-21 22:02:15 | INFO | [NAVER_FETCH] 세계 경제 fallback_sort=date raw=0
+2025-12-21 22:02:15 | INFO | [NAVER_FILTER] 세계 경제 after_window(filtered by date) filtered=0
+2025-12-21 22:02:15 | INFO | [NAVER_FINAL] 세계 경제 used_sort=date final=0
+2025-12-21 22:02:15 | INFO | [MATCH_DETAIL] 세계 경제 HK#0 no match (best=0.00) HK='"고소득 외국인에만 술 판매"…'금주 국가' 사우디의 실험'
+2025-12-21 22:02:15 | INFO | [MATCH_DETAIL] 세계 경제 HK#1 no match (best=0.00) HK='"크리스마스가 대목" 리얼돌 사러 '우르르'…AI 기능도 탑재'
+2025-12-21 22:02:15 | INFO | [MATCH_DETAIL] 세계 경제 HK#2 no match (best=0.00) HK='휴양지서 '속옷 노출' 곡예운전…30대 여성 영상에 '화들짝''
+2025-12-21 22:02:15 | INFO | [MATCH] 세계 경제 overlap=0 (out of 3)
+2025-12-21 22:02:15 | INFO | [FETCH] 세계 경제 HK#0 text_len=1059 url=https://www.hankyung.com/article/2025122171247
+2025-12-21 22:02:15 | INFO | [RELATED_TEXT] 세계 경제 HK#0 no matched naver.
+2025-12-21 22:02:23 | INFO | [GPT] 세계 경제 HK#0 body_html_len=402
+2025-12-21 22:02:23 | INFO | [FETCH] 세계 경제 HK#1 text_len=973 url=https://www.hankyung.com/article/2025122171077
+2025-12-21 22:02:23 | INFO | [RELATED_TEXT] 세계 경제 HK#1 no matched naver.
+2025-12-21 22:02:29 | INFO | [GPT] 세계 경제 HK#1 body_html_len=311
+2025-12-21 22:02:29 | INFO | [FETCH] 세계 경제 HK#2 text_len=691 url=https://www.hankyung.com/article/2025122170747
+2025-12-21 22:02:29 | INFO | [RELATED_TEXT] 세계 경제 HK#2 no matched naver.
+2025-12-21 22:02:35 | INFO | [GPT] 세계 경제 HK#2 body_html_len=326
+2025-12-21 22:02:35 | INFO | [EXTRA] 세계 경제 nv_total=0 used_for_match=0 extras=0
+2025-12-21 22:02:35 | INFO | [SECTION] 세계 경제 done. render_items=3 (main=3, extra=0)
+2025-12-21 22:02:35 | INFO | [SECTION] IT started.
+2025-12-21 22:02:35 | INFO | [HK] IT raw=50 selected=3
+2025-12-21 22:02:35 | INFO | [HK_SEL] IT - KT, 생성 AI 자격증 내놨다…AICE 제너레이티브 출시 / 2025-12-21 18:43 / https://www.hankyung.com/article/2025122168471
+2025-12-21 22:02:35 | INFO | [HK_SEL] IT - 양자컴 특허, 상용화로 무게중심 이동 / 2025-12-21 18:42 / https://www.hankyung.com/article/2025122168491
+2025-12-21 22:02:35 | INFO | [HK_SEL] IT - "네이버가 줄 수 있는 오프라인 경험…피지컬 AI로 꽃피우겠다" / 2025-12-21 18:40 / https://www.hankyung.com/article/2025122169641
+2025-12-21 22:02:35 | INFO | [NAVER_QUERY] IT query='IT 인공지능' (from NAVER_QUERIES.get(sec, sec))
+2025-12-21 22:02:35 | INFO | [NAVER_FETCH] IT primary_sort_used=sim raw=0
+2025-12-21 22:02:35 | INFO | [NAVER_DEBUG] IT type(items)=<class 'list'>
+2025-12-21 22:02:35 | INFO | [NAVER_FILTER] IT after_window filtered=0
+2025-12-21 22:02:35 | INFO | [NAVER_FALLBACK] IT filtered<3. fallback to sort=date with SAME query='IT 인공지능'
+2025-12-21 22:02:35 | INFO | [NAVER_FETCH] IT fallback_sort=date raw=0
+2025-12-21 22:02:35 | INFO | [NAVER_FILTER] IT after_window(filtered by date) filtered=0
+2025-12-21 22:02:35 | INFO | [NAVER_FINAL] IT used_sort=date final=0
+2025-12-21 22:02:35 | INFO | [MATCH_DETAIL] IT HK#0 no match (best=0.00) HK='KT, 생성 AI 자격증 내놨다…AICE 제너레이티브 출시'
+2025-12-21 22:02:35 | INFO | [MATCH_DETAIL] IT HK#1 no match (best=0.00) HK='양자컴 특허, 상용화로 무게중심 이동'
+2025-12-21 22:02:35 | INFO | [MATCH_DETAIL] IT HK#2 no match (best=0.00) HK='"네이버가 줄 수 있는 오프라인 경험…피지컬 AI로 꽃피우겠다"'
+2025-12-21 22:02:35 | INFO | [MATCH] IT overlap=0 (out of 3)
+2025-12-21 22:02:35 | INFO | [FETCH] IT HK#0 text_len=936 url=https://www.hankyung.com/article/2025122168471
+2025-12-21 22:02:35 | INFO | [RELATED_TEXT] IT HK#0 no matched naver.
+2025-12-21 22:02:41 | INFO | [GPT] IT HK#0 body_html_len=376
+2025-12-21 22:02:41 | INFO | [FETCH] IT HK#1 text_len=810 url=https://www.hankyung.com/article/2025122168491
+2025-12-21 22:02:41 | INFO | [RELATED_TEXT] IT HK#1 no matched naver.
+2025-12-21 22:02:48 | INFO | [GPT] IT HK#1 body_html_len=361
+2025-12-21 22:02:48 | INFO | [FETCH] IT HK#2 text_len=3054 url=https://www.hankyung.com/article/2025122169641
+2025-12-21 22:02:48 | INFO | [RELATED_TEXT] IT HK#2 no matched naver.
+2025-12-21 22:02:55 | INFO | [GPT] IT HK#2 body_html_len=876
+2025-12-21 22:02:55 | INFO | [EXTRA] IT nv_total=0 used_for_match=0 extras=0
+2025-12-21 22:02:55 | INFO | [SECTION] IT done. render_items=3 (main=3, extra=0)
+2025-12-21 22:02:55 | INFO | [RENDER] building HTML title='[뉴스레터] 2025년 12월 21일 주요 이슈 요약 (한국경제 RSS + 네이버 뉴스)' subject='[DH 뉴스레터] 2025년 12월 21일 주요 이슈 요약 (한국경제 RSS + 네이버 뉴스)'
+2025-12-21 22:02:55 | INFO | [RENDER] HTML built len=9343
+2025-12-21 22:02:55 | INFO | [FILE] newsletter html saved: output\newsletter_2025-12-21.html
+2025-12-21 22:02:55 | INFO | [FILE] newsletter txt saved: output\newsletter_2025-12-21.txt
+2025-12-21 22:02:55 | INFO | [MAIL] send start to=['dhlee@pndsolution.com'] subject='[DH 뉴스레터] 2025년 12월 21일 주요 이슈 요약 (한국경제 RSS + 네이버 뉴스)' html_len=9343
+2025-12-21 22:03:02 | INFO | [MAIL] send success.
+2025-12-21 22:03:02 | INFO | [2025-12-21] Mail sent successfully (HTML).
+2025-12-21 22:03:03 | INFO | [TISTORY] launched: D:\Miniconda\envs\py39\python.exe src\tistory_login_only.py
+2025-12-21 22:03:03 | INFO | [2025-12-21] FINAL SUCCESS after 1 attempt(s).
+Traceback (most recent call last):
+  File "C:\Users\user\OneDrive\01. Codings\00. 개인 작업\Agent\New_letter\src\tistory_login_only.py", line 274, in <module>
+    main()
+  File "C:\Users\user\OneDrive\01. Codings\00. 개인 작업\Agent\New_letter\src\tistory_login_only.py", line 211, in main
+    cwd=str(Path(__file__).resolve().parent),
+NameError: name 'Path' is not defined
